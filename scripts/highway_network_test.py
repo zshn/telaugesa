@@ -4,6 +4,8 @@ This showed a supervised version with 20 highway layers
 What you need to do to transfer to autoencoder is that
 change the softmax layer to another ReLU layer, set out_dim to 784 and
 change cost to binary cross entropy
+
+This is a testing
 """
 
 import numpy as np;
